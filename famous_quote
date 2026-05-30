@@ -1,0 +1,8 @@
+# This program is about a famous quote. 
+
+famous_person_first_name = "elon"
+famous_person_last_name = "musk"
+full_name = f"{famous_person_first_name} {famous_person_last_name}"
+quote = "No, I don’t ever give up. I’d have to be dead or completely incapacitated."
+message = f"{full_name.title()} once said, \"{quote}\""
+print(message)
