@@ -1,0 +1,42 @@
+# List of names of friends
+names = ['summer', 'landon', 'mo', 'luis', 'cong']
+print(names[0])
+print(names[1])
+print(names[2])
+print(names[3])
+print(names[4])
+
+# Personalized messages to each friend
+message = f'Hello, {names[0].title()} thank you for being a huge part of my life.'
+print(message)
+
+message = f'Hello, {names[1].title()} can\'t wait to play some games with you.'
+print(message)
+
+message = f'Hello, {names[2].title()} we need to get you back into gaming soon.'
+print(message)
+
+message = f'Hello, {names[3].title()} we need to catch up soon.'
+print(message)
+
+message = f'Hello, {names[4].title()} keep killing it at work.'
+print(message)
+
+# List of transportation methods
+transportation = ['car', 'bus', 'plane', 'train', 'bicycle']
+
+# Personalized messages about transportation and friends
+message = f'I would like to take a {transportation[2]} with {names[0].title()} to go to Italy.'
+print(message)
+
+message = f'I wonder if {names[1].title()} would ever take a {transportation[1]} somewhere.'
+print(message)
+
+message = f'I could see {names[2].title()} riding a {transportation[-1]} to work every day.'
+print(message)
+
+message = f'I should take the {transportation[3]} to visit {names[3].title()} sometime.'
+print(message)
+
+message = f'I could see {names[-1].title()} taking a {transportation[0]} to go on a road trip to Canada.'
+print(message)
