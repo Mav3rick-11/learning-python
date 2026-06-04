@@ -1,0 +1,42 @@
+# List of guests to invite to the party
+guests = ['summer', 'landon', 'mo',]
+
+# Sending out invitations to each guest
+print(f'Dear {guests[0].title()}, \nI would like to invite you to my party!')
+print(f'Dear {guests[1].title()}, \nplease come to my party as it has been a while since we last met!')
+print(f'Dear {guests[2].title()}, \nI hope you can make it to my party!')
+
+# Removing a guest who can't make it
+unable_to_attend = guests.pop(2)
+print(f'Dear {unable_to_attend.title()}, \nI am sorry to hear that you cannot make it to the party. I hope we can catch up soon!')
+
+# Adding a new guest to the list
+guests.append('haley')
+print(f'Dear {guests[2].title()}, \nI hope you can make it to my party.')
+
+# Updating the guest list with more guests
+print('Good news! I have found a bigger venue for the party, so I can invite more guests!')
+guests.insert(0, 'mom')
+guests.insert(1, 'dad')
+guests.append('chelsea')
+
+# Sending out new invitations to all guests
+print(f'Dear {guests[0].title()}, \nI would like to invite you to my party!')
+print(f'Dear {guests[1].title()}, \nI would really like it if you could come to my party!')
+print(f'Dear {guests[5].title()}, \nI hope you can make it to my party!')
+
+# Removing guests due to venue constraints
+print('Unfortunately, the new venue can only accommodate two guests. I am sorry to say that I have to uninvite some guests.')
+
+unable_to_attend = guests.pop(0)
+print(f'Dear {unable_to_attend.title()}, \nI am sorry to inform you but I have to uninvite you from the party due to venue constraints.')
+unable_to_attend = guests.pop(0)
+print(f'Dear {unable_to_attend.title()}, \nI am sorry to inform you but I have to uninvite you from the party due to venue constraints.')
+unable_to_attend = guests.pop(2)
+print(f'Dear {unable_to_attend.title()}, \nI am sorry to inform you but I have to uninvite you from the party due to venue constraints.')
+unable_to_attend = guests.pop(2)
+print(f'Dear {unable_to_attend.title()}, \nI am sorry to inform you but I have to uninvite you from the party due to venue constraints.')
+
+# Final invitations to the remaining guests
+print(f'Dear {guests[0].title()}, \nI am happy to inform you that you are still invited to the party!')
+print(f'Dear {guests[1].title()}, \nI am happy to inform you that you are still invited to the party!')
